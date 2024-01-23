@@ -1,0 +1,93 @@
+body {
+  margin: left;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+  display: flex;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+div{
+     background-color: #F8F8F8;
+     border-style: solid;
+     border width: 1px;
+     border-color: #DFE0E3;
+     border-radius: 3px;
+     margin: 0px 0px;
+
+
+}
+
+p{
+    text-align: left;
+    font-size: 13px;
+    margin: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    line-height: 0;
+}
+
+
+h1{
+
+    font-size: 26px;
+    margin left: 30px 0px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 95%;
+    margin: 00px 00px;
+    padding: 10px 20px;
+    line-height: 0.8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+}
+
+
+
+
+
+
+.btn1 {
+  display: block;
+  justify-content: centered;
+  align-items: centered;
+  width: 70px;
+  height: 30px;
+  font-family: Arial;
+  font-weight: 1200;
+  border-radius: 5px;
+  margin: 10px 150px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 5px 5px;
+  background-color: #3973F7;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  border:2px solid #3973F7;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color:#0F3DA8;
+}
+
+
+}
+
+.centered-btn1 {
+    padding: 60px 20px;
+    font-size: 16px;
